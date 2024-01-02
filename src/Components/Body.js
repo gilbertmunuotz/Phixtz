@@ -37,28 +37,26 @@ function Body() {
             </motion.div>
 
 
-            <h3 className='font-bold mt-48 ml-10 sm:text-center text-4xl md:ml-8'>What Do We Do.</h3>
+            <h3 className='font-bold mt-48 ml-10 sm:text-4xl md:ml-8'>What Do We Do.</h3>
             <h4 className='ml-12 font-sans text-xl'>Most Companies and Business Have Trusted Us On the Following Aspects.</h4>
             <div className='grid mt-6 gap-4 mx-4 sm:block md:grid-cols-2 lg:grid-cols-3'>
                 <motion.img src={WebDevelopment} alt="Mac Book Air 2022" className='rounded-xl cursor-pointer hover sm:bg-contain px-5 lg:h-56 w-96' whileHover={{ scale: 1.1 }} />
-                <div className="lg:row-start-2">
+                <div className="lg:row-start-2 sm:mx-6 my-4">
                     <h4 className='sm:text-left font-serif font-bold text-3xl ml-4 mt-3'>Web Development</h4>
-                    <div className="text-start">
-                        <p3 className='font-serif sm:font-serif mx-4 text-2xl mb-3 text'>Create responsive websites and web applications to improve online presence and engage customers.</p3>
-                    </div>
+                    <p3 className='font-serif sm:font-serif text-2xl mb-3'>Create responsive websites and web applications to improve online presence and engage customers.</p3>
                 </div>
 
 
                 <motion.img src={MobApp} alt="Mobile Phone Displaying Applications" className='rounded-xl cursor-pointer sm:bg-contain px-5 lg:h-56 w-96' whileHover={{ scale: 1.1 }} />
-                <div className="lg:row-start-2">
+                <div className="lg:row-start-2 sm:mx-6 my-4">
                     <h5 className='sm:text-left font-serif font-bold text-3xl ml-4 mt-3'>Mobile App Development</h5>
-                    <p4 className='font-serif sm:font-serif mx-4 text-2xl mb-3 text-left'>Design and develop customized mobile apps for Android and iOS platforms to reach a wider audience</p4>
+                    <p4 className='font-serif sm:font-serif text-2xl mb-3'>Design and develop customized mobile apps for Android and iOS platforms to reach a wider audience</p4>
                 </div>
 
                 <motion.img src={SoftwareTesting} alt="Ipone 15 in Action" className='rounded-xl cursor-pointer sm:bg-contain px-5 lg:h-56 w-96' whileHover={{ scale: 1.1 }} />
-                <div className="lg:row-start-2">
+                <div className="lg:row-start-2 sm:mx-6 my-4">
                     <h6 className='sm:text-left font-serif font-bold text-3xl ml-4 mt-3'>Software Testing</h6>
-                    <p5 className='font-serif sm:font-serif mx-4 text-2xl mb-3 text-left'>Thoroughly test software applications to ensure high-quality performance and functionality.</p5>
+                    <p5 className='font-serif sm:font-serif text-2xl mb-3'>Thoroughly test software applications to ensure high-quality performance and functionality.</p5>
                 </div>
             </div>
 
@@ -81,9 +79,9 @@ function Body() {
                         Our service is designed to streamline the shopping experience and ensure your items are delivered promptly to your doorstep
                     </p6>
 
-                    <div className="playstore&Appstore flex sm:block">
+                    <div className="playstore&Appstore my-0 flex sm:block">
                         <a href={playStoreUrl} target="_blank" rel="noopener noreferrer">
-                            <img src={Playstore} alt="Playstore" className='md:w-32 lg:h-40' /></a>
+                            <img src={Playstore} alt="Playstore" className='object-cover md:w-32 lg:h-40' /></a>
 
                         {/* <a href={Appstore} target="_blank" rel="noopener noreferrer">
                             <img src={Appstores} alt="Appstore" className='lg:h-40' />
